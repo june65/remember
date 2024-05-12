@@ -28,7 +28,7 @@ def get_embedding(text):
 #### 데이터베이스 - pinecone
 from pinecone import Pinecone
 
-pc = Pinecone(api_key="254aa3fa-d6a3-4324-9376-50d859608601")
+pc = Pinecone(api_key="{pinecone_api_key}")
 index = pc.Index("note")
 
 # inform = "제 이름은 Seo Young-woo이고, 성별은 Female이며, 생년월일은 2003-10-07입니다."
